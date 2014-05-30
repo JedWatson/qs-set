@@ -1,0 +1,22 @@
+{
+  "name": "qs-set",
+  "version": "0.0.1",
+  "description": "Querystring manipulator for node.js and the browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JedWatson/qs-set.git"
+  },
+  "keywords": [
+    "querystring"
+  ],
+  "author": "Jed Watson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JedWatson/qs-set/issues"
+  },
+  "homepage": "https://github.com/JedWatson/qs-set"
+}
