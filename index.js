@@ -1,3 +1,11 @@
+/**
+ * qs-set
+ * ======
+ * 
+ * Copyright (c) 2014 Jed Watson.
+ * May be freely distributed under the MIT license.
+ */
+
 var isObject = function(arg) {
 	return ('[object Object]' === Object.prototype.toString.call(arg));
 }
@@ -78,3 +86,4 @@ QS.prototype.go = function() {
 	window.document.location.search = this.toString();
 	return this;
 }
+
