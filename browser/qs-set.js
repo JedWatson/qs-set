@@ -1,4 +1,15 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+/**
+ * qs-set
+ * ======
+ * 
+ * Copyright (c) 2014 Jed Watson.
+ * May be freely distributed under the MIT license.
+ */
+
+exports = module.exports = require('./lib/qs-set');
+
+},{"./lib/qs-set":2}],2:[function(require,module,exports){
 var isObject = function(arg) {
 	return ('[object Object]' === Object.prototype.toString.call(arg));
 }
@@ -80,7 +91,7 @@ QS.prototype.go = function() {
 	return this;
 }
 
-},{"querystring":4}],2:[function(require,module,exports){
+},{"querystring":5}],3:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -166,7 +177,7 @@ var isArray = Array.isArray || function (xs) {
   return Object.prototype.toString.call(xs) === '[object Array]';
 };
 
-},{}],3:[function(require,module,exports){
+},{}],4:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -253,10 +264,10 @@ var objectKeys = Object.keys || function (obj) {
   return res;
 };
 
-},{}],4:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 'use strict';
 
 exports.decode = exports.parse = require('./decode');
 exports.encode = exports.stringify = require('./encode');
 
-},{"./decode":2,"./encode":3}]},{},[1])
+},{"./decode":3,"./encode":4}]},{},[1])
