@@ -7,9 +7,6 @@
  * May be freely distributed under the MIT license.
  */
 
-exports = module.exports = require('./lib/qs-set');
-
-},{"./lib/qs-set":2}],2:[function(require,module,exports){
 var isObject = function(arg) {
 	return ('[object Object]' === Object.prototype.toString.call(arg));
 }
@@ -91,7 +88,8 @@ QS.prototype.go = function() {
 	return this;
 }
 
-},{"querystring":5}],3:[function(require,module,exports){
+
+},{"querystring":4}],2:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -177,7 +175,7 @@ var isArray = Array.isArray || function (xs) {
   return Object.prototype.toString.call(xs) === '[object Array]';
 };
 
-},{}],4:[function(require,module,exports){
+},{}],3:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -264,10 +262,10 @@ var objectKeys = Object.keys || function (obj) {
   return res;
 };
 
-},{}],5:[function(require,module,exports){
+},{}],4:[function(require,module,exports){
 'use strict';
 
 exports.decode = exports.parse = require('./decode');
 exports.encode = exports.stringify = require('./encode');
 
-},{"./decode":3,"./encode":4}]},{},[1])
+},{"./decode":2,"./encode":3}]},{},[1])
