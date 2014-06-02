@@ -1,8 +1,6 @@
 var demand = require('must'),
 	QS = require('../index');
 
-/** FieldType: Date */
-
 describe('QS', function() {
 	describe('Constructor', function() {
 		it('should parse the querystring', function() {
