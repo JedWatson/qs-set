@@ -23,7 +23,7 @@ var extend = function(obj, src) {
 var querystring = require('querystring');
 
 var QS = function(str) {
-	if ('string' == typeof str) {
+	if ('string' === typeof str) {
 		this.q = querystring.parse(str.replace(/^.*\?/, ''));
 	} else if (isObject(str)) {
 		this.q = extend({}, str);
@@ -65,7 +65,7 @@ QS.prototype.set = function() {
 }
 
 QS.prototype.replace = function(key, val) {
-	if (arguments.length == 2) {
+	if (arguments.length === 2) {
 		// .set('key', 'value') syntax
 		setValue(this.q, key, val);
 	} else {
