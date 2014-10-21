@@ -1,6 +1,6 @@
 {
   "name": "qs-set",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Querystring manipulator for node.js and the browser",
   "main": "lib/qs.js",
   "scripts": {
