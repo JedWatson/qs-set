@@ -1,5 +1,5 @@
 var demand = require('must'),
-	QS = require('../index');
+	QS = require('../lib/qs');
 
 describe('QS', function() {
 	describe('Constructor', function() {

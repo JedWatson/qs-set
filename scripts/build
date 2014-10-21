@@ -1,4 +1,4 @@
 #!/bin/sh
 mkdir -p dist
-NODE_ENV=production node_modules/.bin/browserify index.js -s QS > dist/qs.js
+NODE_ENV=production node_modules/.bin/browserify lib/qs.js -s QS > dist/qs.js
 node_modules/.bin/uglifyjs dist/qs.js --compress warnings=false > dist/qs.min.js

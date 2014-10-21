@@ -11,7 +11,7 @@ To use server-side in a node.js app:
 npm install --save qs-set
 ```
 
-To use in the browser, include `qs-set.js` in your webpage.
+To use in the browser, include `dist/qs.js` or `dist/qs.min.js` in your webpage.
 
 Bower support coming soon.
 
