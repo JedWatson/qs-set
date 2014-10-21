@@ -1,0 +1,27 @@
+{
+  "name": "qs-set",
+  "main": "dist/qs.min.js",
+  "version": "0.0.2",
+  "homepage": "https://github.com/JedWatson/qs-set",
+  "authors": [
+    "Jed Watson"
+  ],
+  "description": "Querystring manipulator",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "querystring",
+    "location",
+    "href"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ]
+}
