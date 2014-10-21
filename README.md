@@ -5,15 +5,19 @@ Querystring manipulator for node.js and the browser.
 
 ## Installation
 
-To use server-side in a node.js app:
+To use server-side in a [node.js](http://nodejs.org/) app:
 
 ```
-npm install --save qs-set
+npm install qs-set --save
 ```
 
-To use in the browser, include `dist/qs.js` or `dist/qs.min.js` in your webpage.
+For client-side usage, use [Browserify](http://browserify.org/) or install using [Bower](http://bower.io/):
 
-Bower support coming soon.
+```
+bower install qs-set --save
+```
+
+Then include `dist/qs.js` or `dist/qs.min.js` in your webpage.
 
 ## Usage
 
